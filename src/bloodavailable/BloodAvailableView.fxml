@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="600.0" minWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bloodavailable.BloodAvailableViewController">
+<children>
+      <Label layoutX="220.0" layoutY="14.0" minWidth="160.0" text="Blood Available">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Separator layoutX="225.0" layoutY="42.0" minWidth="150.0" prefWidth="150.0" />
+      <TextField fx:id="txtanev" editable="false" layoutX="150.0" layoutY="305.0" prefHeight="26.0" prefWidth="70.0" />
+      <Label layoutX="50.0" layoutY="260.0" text="A+ve">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtap" editable="false" layoutX="150.0" layoutY="255.0" prefHeight="26.0" prefWidth="70.0" />
+      <Label layoutX="50.0" layoutY="310.0" text="A-ve">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtonev" editable="false" layoutX="150.0" layoutY="205.0" prefHeight="26.0" prefWidth="70.0" />
+      <Label layoutX="50.0" layoutY="160.0" text="O+ve">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtop" editable="false" layoutX="150.0" layoutY="155.0" prefHeight="26.0" prefWidth="70.0" />
+      <Label layoutX="50.0" layoutY="210.0" text="O-ve">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="225.0" layoutY="160.0" text="units">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="225.0" layoutY="210.0" text="units">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="225.0" layoutY="260.0" text="units">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="225.0" layoutY="310.0" text="units">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtabnev" editable="false" layoutX="447.0" layoutY="305.0" prefHeight="26.0" prefWidth="70.0" />
+      <Label layoutX="347.0" layoutY="260.0" text="AB+ve">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtabp" editable="false" layoutX="447.0" layoutY="255.0" prefHeight="26.0" prefWidth="70.0" />
+      <Label layoutX="347.0" layoutY="310.0" text="AB-ve">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtbnev" editable="false" layoutX="447.0" layoutY="205.0" prefHeight="26.0" prefWidth="70.0" />
+      <Label layoutX="347.0" layoutY="160.0" text="B+ve">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtbp" editable="false" layoutX="447.0" layoutY="155.0" prefHeight="26.0" prefWidth="70.0" />
+      <Label layoutX="347.0" layoutY="210.0" text="B-ve">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="522.0" layoutY="160.0" text="units">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="522.0" layoutY="210.0" text="units">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="522.0" layoutY="260.0" text="units">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="522.0" layoutY="310.0" text="units">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
